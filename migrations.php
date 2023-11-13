@@ -55,15 +55,5 @@
         ['name' => "DELETE"],
     ]);
 
-    DB::table('requests')->insert([
-        ['ip' => "123.123.123-12", 'body' => '{"hello":"world", "Test":["hello"]}', 'request_method_id' => "1", 'created_at' => '2023-11-13 13:45'],
-        ['ip' => "123.123.123-13", 'body' => NULL, 'request_method_id' => "1", 'created_at' => '2023-11-13 13:43']
-    ]);
-
-    DB::table('request_queries')->insert([
-        ['request_id' => 2, 'key' => 'hub_mode', 'value' => 'subscribe'],
-        ['request_id' => 2, 'key' => 'hub_mode3', 'value' => 'subscribe2']
-    ]);
-
     // Enable Foreign Key Checks
     DB::statement('SET FOREIGN_KEY_CHECKS=1;');
