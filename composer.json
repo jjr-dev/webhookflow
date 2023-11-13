@@ -17,11 +17,6 @@
     "require": {
         "php": ">=7.1",
         "phpluna/framework": "^2.0",
-        "illuminate/database": "^8.83",
-        "firebase/php-jwt": "^6.5",
-        "guzzlehttp/guzzle": "^7.6",
-        "cboden/ratchet": "^0.4.4",
-        "textalk/websocket": "^1.6",
-        "orhanerday/open-ai": "^4.8"
+        "illuminate/database": "^8.83"
     }
 }
