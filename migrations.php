@@ -24,7 +24,7 @@
     
     DB::schema()->create('requests', function (Blueprint $table) {
         $table->id();
-        $table->text('ip');
+        $table->text('ip')->nullable();
         $table->longText('body')->nullable();
         $table->unsignedBigInteger('request_method_id');
         $table->timestamps();
