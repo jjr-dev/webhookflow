@@ -1,0 +1,13 @@
+.request-item:hover {
+    background-color: #00000010;
+    cursor: pointer;
+}
+
+.request-item {
+    transition: 0.2s;
+}
+
+.request-infos .request-body {
+    white-space: pre;
+    font-family: monospace;
+}
